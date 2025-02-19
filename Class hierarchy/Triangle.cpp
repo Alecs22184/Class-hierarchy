@@ -3,32 +3,32 @@
 
 Triangle::Triangle() { a = 10, b = 20, c = 30, A = 50, B = 60, C = 70, name = "Треугольник :"; }
 
- int Triangle::get_a() const 
+ int Triangle::get_a() 
 {
 	return a;
 }
 
- const int Triangle::get_b()
+  int Triangle::get_b()
 {
 	return b;
 }
 
-const int Triangle::get_c()
+ int Triangle::get_c()
 {
 	return c;
 }
 
-const int Triangle::get_A()
+ int Triangle::get_A()
 {
 	return A;
 }
 
-const int Triangle::get_B()
+ int Triangle::get_B()
 {
 	return B;
 }
 
-const std::string Triangle::getName()
+ std::string Triangle::getName()
 {
 	return name;
 }

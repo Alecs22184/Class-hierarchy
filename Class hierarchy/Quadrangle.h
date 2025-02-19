@@ -12,25 +12,25 @@ protected:
 
 public:
     Quadrangle();
-    Quadrangle(int, int, int, int, int, int, int, int, std::string);
+    Quadrangle(int a, int b, int c, int d, int A , int B, int C , int D, std::string);
 
     virtual void print_info();
 
-    int  get_a(); const
+    int  get_a(); 
 
-        const int  get_b(); const
+         int  get_b(); 
 
-        int  get_c(); const
+        int  get_c(); 
 
-        int  get_d();const
+        int  get_d();
 
-        int  get_A();const
+        int  get_A();
 
-        int  get_B();const
+        int  get_B();
 
-        int  get_C();const
+        int  get_C();
 
-        int  get_D();const
+        int  get_D();
 
         std::string  getName();
 

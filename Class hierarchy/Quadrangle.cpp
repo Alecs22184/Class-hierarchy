@@ -35,35 +35,35 @@ Quadrangle::Quadrangle(int a, int b, int c, int d, int A, int B, int C, int D, s
  {
      return a;
  }
- const int Quadrangle::get_b() 
+  int Quadrangle::get_b() 
  {
      return b;
  }
- const int Quadrangle::get_c()
+  int Quadrangle::get_c()
  {
      return c;
  }
- const int Quadrangle::get_d()
+  int Quadrangle::get_d()
  {
      return d;
  }
- const int Quadrangle::get_A()
+  int Quadrangle::get_A()
  {
      return A;
  }
- const int Quadrangle::get_B()
+  int Quadrangle::get_B()
  {
      return B;
  }
- const int Quadrangle::get_C()
+  int Quadrangle::get_C()
  {
      return C;
  }
- const int Quadrangle::get_D()
+  int Quadrangle::get_D()
  {
      return D;
  }
- const std::string Quadrangle::getName()
+  std::string Quadrangle::getName()
  {
      return name;
  }

@@ -10,15 +10,15 @@ protected:
 public:
     Triangle();
 
-    int  get_a() const; const
+    int  get_a() ; 
 
-        int  get_b();const
+        int  get_b();
 
-        int  get_c();const
+        int  get_c();
 
-        int  get_A();const
+        int  get_A();
 
-        int  get_B();const
+        int  get_B();
 
         std::string  getName();
    
